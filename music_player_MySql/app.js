@@ -1,4 +1,5 @@
 const path = require('path');
+
 const session = require('express-session');
 const SequelizeStore = require("connect-session-sequelize")(session.Store);
 const express = require('express');
